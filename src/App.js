@@ -5,11 +5,31 @@ import { CTA, Brand, Navbar } from "./components";
 
 const App = () => {
     return ( <
-        div >
+        div className = "App" >
         <
-        h3 > Welcome to code < /h3> < /
-        div >
-    )
+        div className = "gradient__bg" >
+        <
+        Navbar / >
+        <
+        Header / >
+        <
+        /div> <
+        Brand / >
+        <
+        WhatGPT3 / >
+        <
+        Features / >
+        <
+        Possibility / >
+        <
+        CTA / >
+        <
+        Blog / >
+        <
+        Footer / >
+        <
+        /div>
+    );
 };
 
 export default App;
